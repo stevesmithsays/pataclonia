@@ -1,0 +1,122 @@
+.header-component {
+  display: block;
+  position: fixed;
+  background: #fbfbfb;
+  height: 113px;
+  width: 100%;
+  top: 0;
+  z-index: 1000; }
+
+.sup-header {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 40px;
+  margin: 0 auto;
+  background: black;
+  font-size: .75rem;
+  color: white; }
+
+.color-stripe {
+  background: #0D00C8;
+  display: block;
+  position: relative;
+  height: 8px;
+  border-bottom: 2px solid #FF571A; }
+
+.color-stripe-stripe {
+  background: #0058D3;
+  display: block;
+  position: relative;
+  height: 3px;
+  top: 2px; }
+
+.headspan {
+  display: block;
+  position: relative;
+  width: 25%;
+  height: 20px;
+  margin-top: 6px; }
+
+.leftspan {
+  float: left;
+  width: 35%;
+  left: 1.25%;
+  overflow: hidden; }
+
+.rightspan {
+  float: right;
+  width: 35%;
+  right: 3%;
+  text-align: right;
+  overflow: hidden; }
+
+.logo-container {
+  display: block;
+  padding: 12px;
+  width: 200px;
+  margin: 5px;
+  top: 10px; }
+
+.nav-container {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 670px;
+  bottom: 65px;
+  right: 1%; }
+
+.main-nav {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  width: 98%; }
+
+.main-nav li {
+  color: black;
+  display: inline-block;
+  position: relative;
+  margin: 0 15px;
+  padding: 4px;
+  font-size: .65rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: .1s ease all; }
+
+.main-nav li:hover {
+  transition: .1s ease all;
+  color: #ff5e00; }
+
+.icon-container {
+  background: #fbfbfb;
+  display: block;
+  position: relative;
+  float: right;
+  margin: 0 4px;
+  left: 10px;
+  height: 38px;
+  width: 200px;
+  bottom: 112px; }
+
+.icon-nav {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  width: 200px;
+  bottom: 2px; }
+
+.icon {
+  display: inline-block;
+  position: relative;
+  margin: 1px 16px;
+  padding: 6px;
+  border-bottom: 1px solid #FF571A00;
+  transition: .1s ease all; }
+
+.icon:hover {
+  transition: .1s ease all;
+  border-bottom: 1px solid #FF571A; }
+
+/*# sourceMappingURL=Header.css.map */

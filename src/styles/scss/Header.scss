@@ -1,0 +1,146 @@
+.header-component{
+  display: block;
+  position: fixed;
+  // text-align: center;
+  background: #fbfbfb;
+  // background: grey;
+  height: 113px;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.sup-header{
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 40px;
+  margin: 0 auto;
+  background: black;
+  font-size: .75rem;
+  color: white;
+}
+
+.color-stripe{
+  background: #0D00C8;
+  display: block;
+  position: relative;
+  height: 8px;
+  border-bottom: 2px solid #FF571A;
+}
+.color-stripe-stripe{
+  background: #0058D3;
+  display: block;
+  position: relative;
+  height: 3px;
+  top: 2px;
+}
+
+.headspan{
+  display: block;
+  position: relative;
+  width: 25%;
+  height: 20px;
+  margin-top: 6px;
+}
+
+.leftspan{
+  // background: lightgreen;
+  float: left;
+  width: 35%;
+  left: 1.25%;
+  overflow: hidden;
+}
+
+.rightspan{
+  // background: lightgreen;
+  float: right;
+  width: 35%;
+  right: 3%;
+  text-align: right;
+  overflow: hidden;
+}
+
+.logo-container{
+  // background: lightgreen;
+  display: block;
+  padding: 12px;
+  width: 200px;
+  margin: 5px;
+  top: 10px;
+}
+
+.nav-container{
+  // background: #881cc7cc;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 670px;
+  bottom: 65px;
+  right: 1%;
+}
+
+.main-nav{
+  // background: #0aa9df7e;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  width: 98%;
+}
+
+.main-nav li{
+  // background: #00000065;
+  color: black;
+  display: inline-block;
+  position: relative;
+  margin: 0 15px;  
+  padding: 4px;
+  font-size: .65rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase; 
+  transition: .1s ease all;
+}
+
+.main-nav li:hover{
+  transition: .1s ease all;
+  color: #ff5e00;
+}
+
+.icon-container{
+  background: #fbfbfb;
+  display: block;
+  position: relative;
+  float: right;
+  margin: 0 4px;
+  // margin-bottom: 112px;
+  left: 10px;
+  height: 38px;
+  width: 200px;
+  bottom: 112px;
+}
+
+.icon-nav{  
+  // background: green;
+  display: block;  
+  position: relative;
+  margin: 0 auto;
+  width: 200px;
+  bottom: 2px;
+}
+
+.icon{  
+  // background: pink;
+  display: inline-block;
+  position: relative;
+  margin: 1px 16px;
+  padding: 6px;
+  border-bottom: 1px solid #FF571A00;
+  transition: .1s ease all;
+}
+
+.icon:hover{
+  transition: .1s ease all;
+  border-bottom: 1px solid #FF571A;
+}

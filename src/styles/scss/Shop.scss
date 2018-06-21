@@ -1,0 +1,38 @@
+#shop-component{
+  background: lightgreen;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  height: 1100px;
+}
+
+#shop-header{
+  background: lightblue;
+  display: block;
+  position: relative;
+  margin: 10px auto;
+  height: 100px;
+  font-size: .75rem;
+  width: 90%;
+  text-align: center;
+  
+  h1{
+    // background: lightcoral;
+    margin: 0 auto;
+    width: 98%;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  span{
+    font-weight: bold;
+  }
+}
+
+.header-line{
+  background: grey;  
+  position: relative;
+  margin: 15px auto;
+  min-width: 80px;
+  max-width: 100px;
+  height: 3px;
+}

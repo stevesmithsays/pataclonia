@@ -1,0 +1,229 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; }
+
+.header-component {
+  display: block;
+  position: fixed;
+  background: #fbfbfb;
+  height: 113px;
+  width: 100%;
+  top: 0;
+  z-index: 1000; }
+
+.sup-header {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 40px;
+  margin: 0 auto;
+  background: black;
+  font-size: .75rem;
+  color: white; }
+
+.color-stripe {
+  background: #0D00C8;
+  display: block;
+  position: relative;
+  height: 8px;
+  border-bottom: 2px solid #FF571A; }
+
+.color-stripe-stripe {
+  background: #0058D3;
+  display: block;
+  position: relative;
+  height: 3px;
+  top: 2px; }
+
+.headspan {
+  display: block;
+  position: relative;
+  width: 25%;
+  height: 20px;
+  margin-top: 6px; }
+
+.leftspan {
+  float: left;
+  width: 35%;
+  left: 1.25%;
+  overflow: hidden; }
+
+.rightspan {
+  float: right;
+  width: 35%;
+  right: 3%;
+  text-align: right;
+  overflow: hidden; }
+
+.logo-container {
+  display: block;
+  padding: 12px;
+  width: 200px;
+  margin: 5px;
+  top: 10px; }
+
+.nav-container {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 670px;
+  bottom: 65px;
+  right: 1%; }
+
+.main-nav {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  width: 98%; }
+
+.main-nav li {
+  color: black;
+  display: inline-block;
+  position: relative;
+  margin: 0 15px;
+  padding: 4px;
+  font-size: .65rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: .1s ease all; }
+
+.main-nav li:hover {
+  transition: .1s ease all;
+  color: #ff5e00; }
+
+.icon-container {
+  background: #fbfbfb;
+  display: block;
+  position: relative;
+  float: right;
+  margin: 0 4px;
+  left: 10px;
+  height: 38px;
+  width: 200px;
+  bottom: 112px; }
+
+.icon-nav {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  width: 200px;
+  bottom: 2px; }
+
+.icon {
+  display: inline-block;
+  position: relative;
+  margin: 1px 16px;
+  padding: 6px;
+  border-bottom: 1px solid #FF571A00;
+  transition: .1s ease all; }
+
+.icon:hover {
+  transition: .1s ease all;
+  border-bottom: 1px solid #FF571A; }
+
+.hero-component {
+  background-image: url("../../assets/images/bearsEars.png");
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  top: 60px;
+  height: 705px;
+  text-align: center; }
+
+.hero-text {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  width: 98%;
+  top: 100px; }
+
+.sup-hero {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  width: 95%;
+  text-align: center; }
+  .sup-hero h1 {
+    display: block;
+    position: relative;
+    font-size: 4rem;
+    letter-spacing: 3px;
+    color: #fafafa; }
+  .sup-hero h2 {
+    color: #fafafa;
+    position: relative;
+    bottom: 40px;
+    font-weight: 100;
+    letter-spacing: 4px;
+    text-transform: uppercase; }
+
+.sub-hero {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 80%;
+  text-align: center; }
+  .sub-hero h3 {
+    color: #fafafa;
+    margin: 0 auto;
+    width: 90%;
+    font-weight: 300;
+    letter-spacing: 2px; }
+  .sub-hero #hero-btn {
+    background: #ff5e00;
+    color: #fafafa;
+    display: block;
+    outline: none;
+    border: 1px solid #ce4b00;
+    border-radius: 4px;
+    position: relative;
+    margin: 20px auto;
+    height: 40px;
+    width: 190px;
+    text-transform: uppercase;
+    transition: .2s ease all; }
+  .sub-hero #hero-btn:hover {
+    transition: .2s ease all;
+    background: #ff5e00;
+    height: 50px;
+    width: 200px;
+    box-shadow: 0px 0px 20px #ffb265;
+    text-shadow: 2px 2px 2px black; }
+
+#shop-component {
+  background: lightgreen;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  height: 1100px; }
+
+#shop-header {
+  background: lightblue;
+  display: block;
+  position: relative;
+  margin: 10px auto;
+  height: 100px;
+  font-size: .75rem;
+  width: 90%;
+  text-align: center; }
+  #shop-header h1 {
+    margin: 0 auto;
+    width: 98%;
+    text-transform: uppercase;
+    font-weight: 400; }
+  #shop-header span {
+    font-weight: bold; }
+
+.header-line {
+  background: grey;
+  position: relative;
+  margin: 15px auto;
+  min-width: 80px;
+  max-width: 100px;
+  height: 3px; }
+
+/*# sourceMappingURL=index.css.map */
